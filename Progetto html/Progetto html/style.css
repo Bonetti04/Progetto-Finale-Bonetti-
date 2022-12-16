@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.topnav a {
+  float: left;
+  color: #09069c;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #09069c;
+}
+
+.topnav a.active {
+  background-color: #90D7FF;
+  color: #09069c;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+  text-align: center;
+}
+
+
+/*@media screen and (min-width: 600px) {
+
+  .topnav a,
+  .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}*/
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.margin{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.immagine {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  object-fit: cover;
+  height: 343px;
+  width: 330px;
+}
+
+@media screen and (min-width: 601px) {
+  div.immagine {
+    height: 500px;
+    width: 530px;
+  }
+}
+
+.border{
+    border: 2px solid #000000;
+    background-color: #09069c;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+.icon{
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.tabellaTaglie{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.capi{
+  border: 2px solid #000000;
+  background-color: #ff0606;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.immagine2{
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 70px;
+  width: 90px;
+}
+
+@media screen and (min-width: 601px) {
+  div.d-flex{
+    margin-top: 30px;
+    margin-left: 550px;
+  }
+}
